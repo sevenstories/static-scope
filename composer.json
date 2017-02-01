@@ -1,0 +1,21 @@
+{
+    "name": "fnvi/static-scope",
+    "description": "Description of project StaticScope.",
+    "authors": [
+        {
+            "name": "Joe Wheatley",
+            "email": "joew@fnvi.co.uk"
+        }
+    ],
+    "require":{
+        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "autoload":{
+        "psr-4":{
+            "StaticScope\\":"src"
+        }
+    }
+}
